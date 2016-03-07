@@ -1,0 +1,17 @@
+https 	hp unix management 
+
+POST /proxy/ssllogin HTTP/1.1
+Host: 10.245.110.98:2381
+Connection: keep-alive
+Content-Length: 68
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: https://10.245.110.98:2381
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36
+HTTPS: 1
+Content-Type: application/x-www-form-urlencoded
+Referer: https://10.245.110.98:2381/cpqlogin.php?errno=100&severity=4
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4,ja;q=0.2
+
+redirecturl=&redirectquerystring=&user=Administrator&password=123456
